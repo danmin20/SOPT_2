@@ -1,9 +1,10 @@
-package com.danmin.sopt_2
+package com.danmin.sopt_2.Recycler
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.danmin.sopt_2.R
 
 class FeedAdapter(private val context: Context) : RecyclerView.Adapter<FeedViewHolder>() {
 

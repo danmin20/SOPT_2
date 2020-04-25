@@ -6,6 +6,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.danmin.sopt_2.Recycler.FeedAdapter
+import com.danmin.sopt_2.Recycler.FeedData
+import com.danmin.sopt_2.Recycler.VerticalItemDecorator
 import kotlinx.android.synthetic.main.fragment_home.*
 
 class HomeFragment : Fragment() {

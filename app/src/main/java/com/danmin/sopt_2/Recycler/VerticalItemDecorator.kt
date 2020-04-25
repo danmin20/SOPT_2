@@ -1,4 +1,4 @@
-package com.danmin.sopt_2
+package com.danmin.sopt_2.Recycler
 
 import android.graphics.Rect
 import android.view.View

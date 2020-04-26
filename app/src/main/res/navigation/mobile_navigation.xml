@@ -12,13 +12,13 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
+        android:id="@+id/navigation_book"
         android:name="com.danmin.sopt_2.LibraryFragment"
         android:label="@string/title_book"
         tools:layout="@layout/fragment_library" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
+        android:id="@+id/navigation_mypage"
         android:name="com.danmin.sopt_2.MypageFragment"
         android:label="@string/title_mypage"
         tools:layout="@layout/fragment_mypage" />

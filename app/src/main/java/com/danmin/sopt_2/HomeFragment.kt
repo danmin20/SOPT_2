@@ -6,11 +6,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.danmin.sopt_2.Recycler.FeedAdapter
-import com.danmin.sopt_2.Recycler.FeedData
-import com.danmin.sopt_2.Recycler.VerticalItemDecorator
+import com.danmin.sopt_2.Home.FeedAdapter
+import com.danmin.sopt_2.Home.FeedData
+import com.danmin.sopt_2.Home.VerticalItemDecorator
 import kotlinx.android.synthetic.main.fragment_home.*
-import kotlinx.android.synthetic.main.item_feed.*
 
 class HomeFragment : Fragment() {
     lateinit var feedAdapter: FeedAdapter

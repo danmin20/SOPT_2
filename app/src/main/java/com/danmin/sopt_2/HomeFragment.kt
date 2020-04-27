@@ -29,7 +29,7 @@ class HomeFragment : Fragment() {
             adapter = feedAdapter
             layoutManager = LinearLayoutManager(view.context, LinearLayoutManager.VERTICAL, false)
             addItemDecoration(
-                VerticalItemDecorator(1)
+                VerticalItemDecorator(0)
             )
         }
         loadDatas()

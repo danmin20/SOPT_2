@@ -5,17 +5,10 @@
     android:layout_height="match_parent"
     tools:context=".LibraryFragment">
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-
     <GridView
         android:id="@+id/gridview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:numColumns="3" />
-
+        android:numColumns="3"
+        tools:listitem="@layout/item_book" />
 </FrameLayout>
